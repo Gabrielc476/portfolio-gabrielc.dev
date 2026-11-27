@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-gabrielc.dev",
+  "version": "1.0.0",
+  "description": "Portfólio de Gabriel Castro Cavalcante",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "preview": "python3 -m http.server 8000"
+  },
+  "keywords": ["portfolio", "web", "static"],
+  "author": "Gabriel Castro Cavalcante",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
