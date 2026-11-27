@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel Castro Cavalcante — Criação de Sites Diretos ao Ponto</title>
+    <meta
+      name="description"
+      content="Portfólio de Gabriel Castro Cavalcante. Sites simples, bonitos e feitos para passar confiança e trazer clientes pelo computador e celular."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Gabriel Castro Cavalcante — Sites feitos para trazer clientes"
+    />
+    <meta
+      property="og:description"
+      content="Veja exemplos práticos de sites, entenda como funciona o processo e peça um orçamento direto pelo WhatsApp."
+    />
+
+    <!-- Favicon SVG Neobrutalista -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='10' fill='%23FFD43B' stroke='%23141413' stroke-width='5'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Arial, sans-serif' font-weight='900' font-size='26' fill='%23141413'%3EGC%3C/text%3E%3C/svg%3E"
+    />
+
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/data.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <!-- HEADER -->
+    <header class="site-header" id="topo">
+      <div class="container header-inner">
+        <a href="#inicio" class="brand" aria-label="Gabriel Castro Cavalcante — Início">
+          <span class="brand-badge" aria-hidden="true">GC</span>
+          <span class="brand-name">Gabriel Castro</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+          <a href="#vitrine">Sites</a>
+          <a href="#como-trabalho">Como funciona</a>
+          <a href="#sobre">Sobre mim</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="header-actions">
+          <a
+            href="#contato"
+            class="neo-btn neo-btn--green neo-btn--sm header-cta"
+            data-whatsapp-default
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2m5.81 14.08c-.24.68-1.41 1.3-1.95 1.38-.5.07-1.13.1-1.82-.12-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.94-4.36-.14-.19-1.18-1.57-1.18-2.99 0-1.42.74-2.12 1.01-2.41.26-.29.58-.36.77-.36h.55c.18 0 .42-.07.66.5.24.58.82 2 .89 2.14.07.15.12.32.02.51-.1.19-.14.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.3-.12.59.17.29.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.33 1.44.29.15.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.65-.14.26.1 1.68.79 1.97.94.29.14.48.22.55.34.07.12.07.7-.17 1.38Z"
+              />
+            </svg>
+            <span>WhatsApp</span>
+          </a>
+
+          <button
+            type="button"
+            class="mobile-menu-btn"
+            id="mobile-menu-toggle"
+            aria-expanded="false"
+            aria-controls="mobile-drawer"
+            aria-label="Abrir menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-drawer" id="mobile-drawer" hidden>
+        <nav class="container mobile-nav" aria-label="Menu mobile">
+          <a href="#vitrine">Sites que eu fiz</a>
+          <a href="#como-trabalho">Como funciona</a>
+          <a href="#sobre">Sobre mim</a>
+          <a href="#contato">Contato</a>
+          <a
+            href="#contato"
+            class="neo-btn neo-btn--green"
+            data-whatsapp-default
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Chamar no WhatsApp
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <!-- HERO -->
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1>Sites simples, bonitos e feitos para trazer clientes.</h1>
+
+            <p class="hero-lead">
+              Sites diretos ao ponto para o seu negócio passar confiança, funcionar bem no
+              celular e gerar contatos todos os dias.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                href="#contato"
+                class="neo-btn neo-btn--yellow neo-btn--lg"
+                data-whatsapp-default
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2m5.81 14.08c-.24.68-1.41 1.3-1.95 1.38-.5.07-1.13.1-1.82-.12-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.94-4.36-.14-.19-1.18-1.57-1.18-2.99 0-1.42.74-2.12 1.01-2.41.26-.29.58-.36.77-.36h.55c.18 0 .42-.07.66.5.24.58.82 2 .89 2.14.07.15.12.32.02.51-.1.19-.14.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.3-.12.59.17.29.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.33 1.44.29.15.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.65-.14.26.1 1.68.79 1.97.94.29.14.48.22.55.34.07.12.07.7-.17 1.38Z"
+                  />
+                </svg>
+                <span>Pedir orçamento no WhatsApp</span>
+              </a>
+
+              <a href="#vitrine" class="neo-btn neo-btn--white neo-btn--lg">
+                <span>Ver sites que eu fiz</span>
+                <span aria-hidden="true">↓</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Visual Tátil: Anatomia de um site que funciona -->
+          <aside class="hero-visual" aria-label="O que um bom site entrega">
+            <div class="anatomy-window">
+              <div class="window-bar">
+                <div class="window-dots" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <span class="window-title">seu-negocio.com.br</span>
+              </div>
+
+              <div class="anatomy-body">
+                <div class="anatomy-header">
+                  <span class="eyebrow-tag">O que o seu cliente vê</span>
+                </div>
+
+                <div class="anatomy-block anatomy-block--yellow">
+                  <span class="anatomy-num">1</span>
+                  <div>
+                    <strong>O que você faz</strong>
+                    <p>Explicado em 5 segundos logo na abertura, sem texto confuso.</p>
+                  </div>
+                </div>
+
+                <div class="anatomy-block anatomy-block--blue">
+                  <span class="anatomy-num">2</span>
+                  <div>
+                    <strong>Por que confiar em você</strong>
+                    <p>Serviços bem apresentados, avaliações reais e visual profissional.</p>
+                  </div>
+                </div>
+
+                <div class="anatomy-block anatomy-block--green">
+                  <span class="anatomy-num">3</span>
+                  <div>
+                    <strong>Caminho livre pro contato</strong>
+                    <p>Botão visível direto para o seu WhatsApp em qualquer tela.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- VITRINE -->
+      <section class="section section--tinted" id="vitrine">
+        <div class="container">
+          <div class="section-head section-head--row">
+            <div>
+              <span class="eyebrow">Vitrine de Projetos</span>
+              <h2>Exemplos de sites na prática</h2>
+              <p class="section-sub">
+                Role e teste os sites aqui mesmo na página — veja como ficam no computador
+                e no celular.
+              </p>
+            </div>
+
+            <div class="carousel-controls" aria-label="Controles do carrossel">
+              <button
+                type="button"
+                class="neo-btn neo-btn--white carousel-arrow"
+                id="carousel-prev"
+                aria-label="Projeto anterior"
+              >
+                ←
+              </button>
+              <span class="carousel-counter" id="carousel-counter" aria-live="polite">
+                1 / 2
+              </span>
+              <button
+                type="button"
+                class="neo-btn neo-btn--white carousel-arrow"
+                id="carousel-next"
+                aria-label="Próximo projeto"
+              >
+                →
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="projects-carousel"
+            id="projects-carousel"
+            aria-roledescription="carousel"
+            aria-label="Projetos em destaque"
+          >
+            <div class="carousel-viewport">
+              <div class="carousel-track" id="carousel-track">
+                <noscript>
+                  <p class="neo-notice">
+                    Ative o JavaScript do navegador para navegar pelo carrossel e testar
+                    as demonstrações interativas dos projetos.
+                  </p>
+                </noscript>
+              </div>
+            </div>
+            <div class="carousel-dots" id="carousel-dots" aria-label="Selecionar projeto"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMO EU TRABALHO -->
+      <section class="section" id="como-trabalho">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Passo a passo</span>
+            <h2>Como funciona trabalhar comigo</h2>
+            <p class="section-sub">
+              Quatro etapas simples, do primeiro “oi” até o seu site entrar no ar.
+            </p>
+          </div>
+
+          <div class="steps-grid">
+            <article class="neo-card step-card">
+              <div class="step-top">
+                <span class="step-num">01</span>
+                <span class="step-tag">Início</span>
+              </div>
+              <h3>Conversa rápida</h3>
+              <p>
+                Você me conta no WhatsApp o que faz e qual é o objetivo do site. Sem
+                formulários longos ou termos difíceis.
+              </p>
+            </article>
+
+            <article class="neo-card step-card">
+              <div class="step-top">
+                <span class="step-num">02</span>
+                <span class="step-tag">Criação</span>
+              </div>
+              <h3>Montagem completa</h3>
+              <p>
+                Eu desenho o visual e organizo os textos para qualquer pessoa bater o olho
+                e entender na hora o valor do seu trabalho.
+              </p>
+            </article>
+
+            <article class="neo-card step-card">
+              <div class="step-top">
+                <span class="step-num">03</span>
+                <span class="step-tag">Revisão</span>
+              </div>
+              <h3>Você aprova tudo</h3>
+              <p>
+                Você testa o site pronto no seu próprio celular e computador, e ajustamos
+                juntos cada detalhe até ficar do seu jeito.
+              </p>
+            </article>
+
+            <article class="neo-card step-card">
+              <div class="step-top">
+                <span class="step-num">04</span>
+                <span class="step-tag">Entrega</span>
+              </div>
+              <h3>Site no ar</h3>
+              <p>
+                Coloco tudo no ar com seu endereço próprio, seguro e pronto para você
+                divulgar no Instagram, Google e WhatsApp.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOBRE MIM -->
+      <section class="section section--tinted" id="sobre">
+        <div class="container">
+          <div class="about-card">
+            <div class="about-identity">
+              <div class="about-photo-slot" id="about-photo-slot">
+                <div class="monogram-art" aria-hidden="true">
+                  <span>GC</span>
+                </div>
+              </div>
+              <div class="id-badge">
+                <strong>Gabriel Castro Cavalcante</strong>
+                <span>Criador de Sites</span>
+              </div>
+            </div>
+
+            <div class="about-content">
+              <span class="eyebrow">Sobre mim</span>
+              <h2>Prazer, sou o Gabriel.</h2>
+              <p>
+                Meu trabalho é tirar o peso da tecnologia das suas costas. Muita gente
+                deixa de ter um ótimo site porque acha que vai ser caro, demorado ou
+                complicado de cuidar.
+              </p>
+              <p>
+                Por isso eu trabalho de um jeito direto: você fala sempre comigo, sem
+                intermediários e sem palavras difíceis, e recebe um site bonito, rápido e
+                fácil de usar que realmente ajuda a fechar negócios.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTATO -->
+      <section class="section" id="contato">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-box-inner">
+              <span class="eyebrow eyebrow--dark">Vamos conversar</span>
+              <h2>Quer tirar o seu site do papel?</h2>
+              <p class="contact-lead">
+                Escolha abaixo o que melhor combina com você (ou clique direto) para me
+                chamar no WhatsApp sem compromisso.
+              </p>
+
+              <div
+                class="topic-chips"
+                role="radiogroup"
+                aria-label="Assunto da mensagem para o WhatsApp"
+              >
+                <button
+                  type="button"
+                  class="topic-chip is-selected"
+                  role="radio"
+                  aria-checked="true"
+                  data-topic="Olá Gabriel! Quero criar meu primeiro site para o meu negócio."
+                >
+                  Quero criar meu primeiro site
+                </button>
+                <button
+                  type="button"
+                  class="topic-chip"
+                  role="radio"
+                  aria-checked="false"
+                  data-topic="Olá Gabriel! Já tenho um site e quero deixá-lo mais bonito e rápido."
+                >
+                  Quero melhorar meu site atual
+                </button>
+                <button
+                  type="button"
+                  class="topic-chip"
+                  role="radio"
+                  aria-checked="false"
+                  data-topic="Olá Gabriel! Preciso de uma página direta para divulgar e vender meu serviço."
+                >
+                  Quero uma página de vendas
+                </button>
+                <button
+                  type="button"
+                  class="topic-chip"
+                  role="radio"
+                  aria-checked="false"
+                  data-topic="Olá Gabriel! Vi seu portfólio e gostaria de tirar uma dúvida sobre sites."
+                >
+                  Tirar uma dúvida rápida
+                </button>
+              </div>
+
+              <a
+                href="#"
+                id="main-whatsapp-cta"
+                class="neo-btn neo-btn--green neo-btn--xl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2m5.81 14.08c-.24.68-1.41 1.3-1.95 1.38-.5.07-1.13.1-1.82-.12-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.94-4.36-.14-.19-1.18-1.57-1.18-2.99 0-1.42.74-2.12 1.01-2.41.26-.29.58-.36.77-.36h.55c.18 0 .42-.07.66.5.24.58.82 2 .89 2.14.07.15.12.32.02.51-.1.19-.14.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.3-.12.59.17.29.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.33 1.44.29.15.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.65-.14.26.1 1.68.79 1.97.94.29.14.48.22.55.34.07.12.07.7-.17 1.38Z"
+                  />
+                </svg>
+                <span>Chamar Gabriel no WhatsApp</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Canais de contato -->
+          <div class="contact-grid" aria-label="Outros canais de contato">
+            <a
+              href="#"
+              class="channel-card"
+              data-whatsapp-default
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="channel-icon channel-icon--green" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2m5.81 14.08c-.24.68-1.41 1.3-1.95 1.38-.5.07-1.13.1-1.82-.12-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.94-4.36-.14-.19-1.18-1.57-1.18-2.99 0-1.42.74-2.12 1.01-2.41.26-.29.58-.36.77-.36h.55c.18 0 .42-.07.66.5.24.58.82 2 .89 2.14.07.15.12.32.02.51-.1.19-.14.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.3-.12.59.17.29.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.33 1.44.29.15.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.65-.14.26.1 1.68.79 1.97.94.29.14.48.22.55.34.07.12.07.7-.17 1.38Z"
+                  />
+                </svg>
+              </div>
+              <div class="channel-info">
+                <strong>WhatsApp</strong>
+                <span>Resposta mais rápida</span>
+              </div>
+              <span class="channel-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <div class="channel-card channel-card--email">
+              <div class="channel-icon channel-icon--yellow" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2m8 7 8-5H4l8 5m0 2-8-5v10h16V8l-8 5Z"
+                  />
+                </svg>
+              </div>
+              <div class="channel-info">
+                <strong>E-mail</strong>
+                <a href="mailto:gabriel.ccavalcante@gmail.com" id="contact-email-link">
+                  gabriel.ccavalcante@gmail.com
+                </a>
+              </div>
+              <button
+                type="button"
+                class="copy-btn"
+                id="copy-email-btn"
+                aria-label="Copiar endereço de e-mail"
+              >
+                Copiar
+              </button>
+            </div>
+
+            <a
+              href="#"
+              class="channel-card"
+              id="contact-instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="channel-icon channel-icon--rose" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3Z"
+                  />
+                </svg>
+              </div>
+              <div class="channel-info">
+                <strong>Instagram</strong>
+                <span id="contact-instagram-handle">@gabrielc.dev476</span>
+              </div>
+              <span class="channel-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              href="#"
+              class="channel-card"
+              id="contact-linkedin"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="channel-icon channel-icon--blue" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"
+                  />
+                </svg>
+              </div>
+              <div class="channel-info">
+                <strong>LinkedIn</strong>
+                <span>Perfil profissional</span>
+              </div>
+              <span class="channel-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              href="#"
+              class="channel-card"
+              id="contact-github"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="channel-icon channel-icon--ink" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"
+                  />
+                </svg>
+              </div>
+              <div class="channel-info">
+                <strong>GitHub</strong>
+                <span>Códigos e projetos</span>
+              </div>
+              <span class="channel-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          <strong>Gabriel Castro Cavalcante</strong> · Criação de Sites · ©
+          <span id="current-year">2026</span>
+        </p>
+        <a href="#topo" class="neo-btn neo-btn--white neo-btn--sm">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>

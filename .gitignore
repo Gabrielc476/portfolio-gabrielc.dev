@@ -1,0 +1,6 @@
+# Projetos separados em subpastas com Git próprio
+modelos/
+
+# Arquivos temporários de sistema
+.DS_Store
+Thumbs.db
