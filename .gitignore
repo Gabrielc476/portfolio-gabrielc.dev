@@ -4,3 +4,6 @@ modelos/
 # Arquivos temporários de sistema
 .DS_Store
 Thumbs.db
+
+# Node modules (analytics loaded via CDN)
+node_modules/
